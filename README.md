@@ -11,7 +11,7 @@
 
 | 項目 | 説明 |
 | :--- | :--- |
-| **ハードウェア** | 遊舎工房の**keyboard quantizer mini** |
+| **ハードウェア** | <a href = "https://shop.yushakobo.jp/products/7984">遊舎工房の**keyboard quantizer mini**</a> |
 | **キーボード** | 使用したい**US配列キーボード** |
 | **ソフトウェア** | Webベースの**Remap**ツールと**設定ファイル** |
 
