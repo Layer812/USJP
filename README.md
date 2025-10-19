@@ -26,7 +26,7 @@
 1.  Webブラウザで [Remap (https://remap-keys.app/)](https://remap-keys.app/) にアクセスします。
 2.  keyboard quantizer miniをPCに接続し、Remap画面の指示に従って接続します。
 3.  Remapのキーマップ編集画面で、Bootloaderに割り当てたいキーを選択します。
-4.  左側のキーコードパレットから「**Device**」タブを選択し、「**Bootloader**」をドラッグ＆ドロップで選択したキーに割り当てます。
+4.  キーコードパレットから「**Device**」タブを選択し、「**Bootloader**」をドラッグ＆ドロップで選択したキーに割り当てます。
 5.  右上の「**書き込み**」ボタンで設定がkeyboard quantizer miniに書き込まれます。
 **Remap Bootloader設定とキーコード確認画面のイメージ:**
 <img src="https://github.com/user-attachments/assets/3cee1c43-f321-44f3-8fb9-eb3fb9eddb59" alt="Remap Bootloader Key Assignment" style="max-width: 100%; height: auto;">
@@ -56,10 +56,11 @@ JIS配列への変換とキー入れ替えを行うための設定ファイル�
     * `keyboard_language: US` → `os_language: JP`: **USキーの入力コードを日本語キーボードのコードに変換**します。
     * `KC_CAPS: KC_LCTL`: USキーボードの**Caps Lockキーの位置を左Ctrlキーに変換**します。（よく行われるカスタマイズです）
     <img src="https://github.com/user-attachments/assets/6e4a8cc2-eb16-4af6-b321-8ce799b0dc8c" alt="Remap Bootloader Setting Screen" style="max-width: 100%; height: auto;">
-    <a href = "https://github.com/Layer812/USJP/blob/main/CONFIG.UF2">こちらからもダウンロードできます。</a>
+
 2.  **UF2ファイルのダウンロード:**
     コード入力後、画面の指示に従って`config.uf2`ファイルをダウンロードします。
-3.  **Bootloaderモードでファイル投入:**
+   　<a href = "https://github.com/Layer812/USJP/blob/main/CONFIG.UF2">こちらから</a>もダウンロードできます。
+4.  **Bootloaderモードでファイル投入:**
     keyboard quantizer miniをPCに接続した状態で、ステップ1で設定した**Bootloaderキーを押し**ます。
     * keyboard quantizer miniがUSBメモリのように認識され、ドライブが表示されます。
     * 現れたドライブに、ダウンロードした**`config.uf2`**ファイルをドラッグ＆ドロップで入れます。
