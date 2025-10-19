@@ -2,7 +2,7 @@
 
 ## 📄 概要
 
-会社支給PCが日本語キーボードで、<b>システム権限がなくレジストリ変更や常駐ソフトの導入もできない</b>環境で、Happy Hacking Keyboardなどの外付けのUS配列キーボードを快適に使用するための設定手順です。
+会社支給PCが日本語キーボードで、<b>システム権限がなくキーレイアウト追加やレジストリ変更、常駐ソフトの導入ができない</b>環境で、Happy Hacking Keyboardなどの外付けのUS配列キーボードを快適に使用するための設定手順です。
 
 キーボードとPCの間に「**keyboard quantizer mini**」というアダプタを挟むことで、ハードウェアレベルでキーコードを変換し、接続したUSキーボードのキーコードをJIS配列のキーコードとしてOSに認識させます。
 <img src="https://github.com/user-attachments/assets/8c11a08f-bf0b-4ff5-aa3b-28b2be5aa2ee" alt="Keyboard Quantizer Mini" style="max-width: 100%; height: auto;">
