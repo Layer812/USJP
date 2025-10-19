@@ -60,8 +60,7 @@ JIS配列への変換とキー入れ替えを行うための設定ファイル�
 2.  **UF2ファイルのダウンロード:**
     コード入力後、画面の指示に従って`config.uf2`ファイルをダウンロードします。
 3.  **Bootloaderモードでファイル投入:**
-    ステップ1で設定した**Bootloaderキーを押しながら**keyboard quantizer miniをPCに再接続します。
-    
+    keyboard quantizer miniをPCに接続した状態で、ステップ1で設定した**Bootloaderキーを押し**ます。
     * keyboard quantizer miniがUSBメモリのように認識され、ドライブが表示されます。
     * 現れたドライブに、ダウンロードした**`config.uf2`**ファイルをドラッグ＆ドロップで入れます。
     * ファイル投入後、アダプタが自動で再起動し、新しい設定が適用されます。
@@ -74,7 +73,7 @@ Windowsで変換後のキーボードを正しく認識させるために、専�
     [keyboard quantizer doc Releases - mini-3](https://github.com/sekigon-gonnoc/keyboard-quantizer-doc/releases/tag/mini-3)
 2.  ページ内の`sekigon_keyboard_quantizer_mini_full.uf2`をダウンロードします。
 3.  **Bootloaderモードでファイル投入:**
-    ステップ1で設定した**Bootloaderキーを押しながら**keyboard quantizer miniをPCに再接続します。
+    keyboard quantizer miniをPCに接続した状態で、ステップ1で設定した**Bootloaderキーを押し**ます。
     * keyboard quantizer miniがUSBメモリのように認識され、ドライブが表示されます。
     * 現れたドライブに、ダウンロードした`sekigon_keyboard_quantizer_mini_full.uf2`ファイルをドラッグ＆ドロップで入れます。
     * ファイル投入後、アダプタが自動で再起動し、新しい設定が適用されます。
