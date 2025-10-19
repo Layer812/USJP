@@ -1,4 +1,4 @@
-# 💻 USキーボードをWindows日本語環境で使うためのアダプタ設定
+# 💻 USキーボードをWindows日本語キーボード環境で使う
 
 ## 📄 概要
 
@@ -29,7 +29,7 @@
 4.  左側のキーコードパレットから「**Device**」タブを選択し、「**Bootloader**」をドラッグ＆ドロップで選択したキーに割り当てます。
 5.  右上の「**書き込み**」ボタンで設定がkeyboard quantizer miniに書き込まれます。
 **Remap Bootloader設定とキーコード確認画面のイメージ:**
-<img src="https://github.com/user-attachments/assets/6e4a8cc2-eb16-4af6-b321-8ce799b0dc8c" alt="Remap Bootloader Setting Screen" style="max-width: 100%; height: auto;">
+<img src="https://github.com/user-attachments/assets/3cee1c43-f321-44f3-8fb9-eb3fb9eddb59" alt="Remap Bootloader Key Assignment" style="max-width: 100%; height: auto;">
 
 ### ステップ 2: 設定用UF2ファイルの作成と投入
 
@@ -55,8 +55,8 @@ JIS配列への変換とキー入れ替えを行うための設定ファイル�
     このコードは以下の設定を行っています。
     * `keyboard_language: US` → `os_language: JP`: **USキーの入力コードを日本語キーボードのコードに変換**します。
     * `KC_CAPS: KC_LCTL`: USキーボードの**Caps Lockキーの位置を左Ctrlキーに変換**します。（よく行われるカスタマイズです）
-    <img src="https://github.com/user-attachments/assets/3cee1c43-f321-44f3-8fb9-eb3fb9eddb59" alt="Remap Bootloader Key Assignment" style="max-width: 100%; height: auto;">
-    
+    <img src="https://github.com/user-attachments/assets/6e4a8cc2-eb16-4af6-b321-8ce799b0dc8c" alt="Remap Bootloader Setting Screen" style="max-width: 100%; height: auto;">
+    <a href = "https://github.com/Layer812/USJP/blob/main/CONFIG.UF2">こちらからもダウンロードできます。</a>
 2.  **UF2ファイルのダウンロード:**
     コード入力後、画面の指示に従って`config.uf2`ファイルをダウンロードします。
 3.  **Bootloaderモードでファイル投入:**
